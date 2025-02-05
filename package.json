@@ -1,0 +1,23 @@
+{
+  "name": "github-monitor-2",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bun-plugin-tailwind": "^0.0.14",
+    "cron": "^3.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "scripts": {
+    "build": "bun run scripts/build.ts",
+    "start": "bun run index.ts"
+  }
+}
