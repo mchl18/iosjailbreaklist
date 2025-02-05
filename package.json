@@ -1,5 +1,5 @@
 {
-  "name": "github-monitor-2",
+  "name": "github-monitor",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
